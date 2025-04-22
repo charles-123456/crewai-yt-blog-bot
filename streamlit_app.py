@@ -1,7 +1,4 @@
 # streamlit_app.py
-import sys
-import pysqlite3
-sys.modules["sqlite3"] = pysqlite3
 
 import streamlit as st
 from crewai import Crew, Process
