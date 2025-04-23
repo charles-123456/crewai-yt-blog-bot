@@ -19,7 +19,7 @@ st.title("📽️ YouTube Blog Writer 🤖")
 
 # --- Step 1: Inputs ---
 with st.form("yt_blog_form"):
-    youtube_handle = st.text_input("Enter YouTube Channel Handle (e.g., @krishnaik06)", value="@krishnaik06")
+    youtube_handle = st.text_input("Enter YouTube Channel Handle (e.g., @freecodecamp)", value="@freecodecamp")
     topic = st.text_input("Enter Topic to Research (e.g., AI vs ML vs DL)", value="AI vs ML vs DL vs Data Science")
     submitted = st.form_submit_button("Generate Blog")
 
