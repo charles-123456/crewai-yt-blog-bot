@@ -68,7 +68,7 @@ def get_agents(yt_tool):
         goal='Get video transcripts related to {topic}',
         verbose=True,
         memory=True,
-        backstory="Expert in AI/Data Science video analysis",
+        backstory="Expert in AI/Data Science video analysis and transcription of diffrent vide content language as well",
         tools=[yt_tool],
         llm=llm,
         allow_delegation=True
@@ -79,7 +79,7 @@ def get_agents(yt_tool):
         goal='Write engaging blog post from YouTube content',
         verbose=True,
         memory=True,
-        backstory="Skilled at writing simple, educational tech blogs",
+        backstory="Skilled at writing simple, educational tech blogs and working diffrent language as well",
         tools=[yt_tool],
         llm=llm,
         allow_delegation=False

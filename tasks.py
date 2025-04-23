@@ -29,13 +29,13 @@ from crewai import Task
 def get_tasks(blog_researcher, blog_writer, yt_tool):
     research_task = Task(
         description="Find video about {topic} and extract relevant insights.",
-        expected_output="A 3-paragraph detailed report on {topic}.",
+        expected_output="A all-paragraph detailed report on {topic}.",
         tools=[yt_tool],
         agent=blog_researcher,
     )
 
     write_task = Task(
-        description="Summarize the info from the video on {topic}.",
+        description="Summarize the info from the video on how user narrate like give me entire content from this {topic}.",
         expected_output="Complete blog post written for the topic {topic}.",
         tools=[yt_tool],
         agent=blog_writer,
