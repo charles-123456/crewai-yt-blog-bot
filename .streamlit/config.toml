@@ -6,10 +6,10 @@ headless = true
 enableCORS = false
 
 [browser]
-gatherUsageStats = false
+gatherUsageStats = true
 
 [client]
-showSidebarNavigation = false
+showSidebarNavigation = true
 
 [ui]
 hideTopBar = false
