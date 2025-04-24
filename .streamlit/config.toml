@@ -2,7 +2,7 @@
 base="light"
 
 [server]
-headless = true
+headless = false
 enableCORS = false
 
 [browser]
