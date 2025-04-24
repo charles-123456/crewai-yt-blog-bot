@@ -12,4 +12,4 @@ gatherUsageStats = false
 showSidebarNavigation = false
 
 [ui]
-hideTopBar = true
+hideTopBar = false
