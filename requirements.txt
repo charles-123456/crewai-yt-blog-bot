@@ -6,3 +6,4 @@ langchain-google-genai
 python-dotenv
 rich==13.7.1
 google-generativeai
+pysqlite3-binary
